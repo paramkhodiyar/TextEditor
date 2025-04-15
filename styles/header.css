@@ -3,46 +3,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body, html {
+}
+
+body,
+html {
     height: 100%;
     font-family: 'Courier New', monospace;
-    background: linear-gradient(135deg, #0f0f0f, #1c1c1c); 
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
     color: white;
-  }
-  
-  .container {
-    position:absolute;
-    top: 10;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background: #C33764;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #1D2671, #C33764); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.navbar {
+    position: absolute;
+    top: 5%;
     left: 50%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Navbar styling */
-  .navbar {
+    transform: translateX(-50%);
     border: 2px solid white;
     padding: 1rem 2rem;
     display: flex;
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
-  }
-  
-  .nav-link {
+    border-radius: 40px;
+}
+
+.nav-link {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    color: #f39c12;
-  }
-  
-  .divider {
+    gap: 20px;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.divider {
     color: white;
     font-size: 1.2rem;
-  }
-  
+}
+.logocontainer{
+    position: absolute;
+    top: 6%;
+    left:3%;
+}
+.options-menu{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 12px;
+    top: 5.8%;
+    left:90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
