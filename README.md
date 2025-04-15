@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## What does useState return : 
+Usestate returns an array of state variable and a function to update that state variable.
 
-## Getting Started
+## What is useState :
+usestate is a react hook that allows us to add state to functional components. The initial state of the component is passed as an argument to the useState function. The state variable can be used in the component like any other variable, and the update function can be called to update the state whenever needed.
 
-First, run the development server:
+## What is StateVariable :
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Statevariable allows react to store and manage data that changes over time. unlike normal variable, statevariable triggers a re-render of the component where their value is changed. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Difference between state variable and normal variable is that state variable is reactive, meaning that when the value of the state variable changes, react will automatically re-render the component to reflect the new value. Normal variables do not have this behavior, and changing their value will not trigger a re-render of the component.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Why and when to use statevariable :
+State variables are used when we need to store and manage data that changes over time in a functional component. They are particularly useful when we need to keep track of user input, form data, or any other data that may change during the lifecycle of the component. State variables allow us to create dynamic and interactive components that can respond to user actions and update the UI accordingly.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Difference between render and re-render :
+Render is the initial process of creating the component and displaying it on the screen. Re-render is the process of updating the component when its state or props change. When a component is re-rendered, React will compare the new virtual DOM with the previous one and update only the parts of the actual DOM that have changed. This process is called reconciliation and helps to optimize performance by minimizing unnecessary updates to the DOM.
