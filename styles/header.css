@@ -30,7 +30,7 @@ background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, F
 
 .navbar {
     position: absolute;
-    top: 5%;
+    top: 5.4%;
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid white;
@@ -68,7 +68,7 @@ background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, F
     border: 2px solid rgb(255, 255, 255);
     border-radius: 40px;
     padding: 12px;
-    top: 5.8%;
+    top: 5.9%;
     left:90%;
     font-size: 20px;
     display: flex;

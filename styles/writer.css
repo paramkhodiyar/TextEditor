@@ -24,3 +24,8 @@
     cursor: pointer;
     color: white;
 }
+.songplayer{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}

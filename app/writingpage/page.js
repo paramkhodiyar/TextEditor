@@ -93,6 +93,18 @@ export default function WriterPage() {
             <button style={styles.buttonDanger} onClick={handleClear}>Forget</button>
         </div>
         </div>
+        {/* <div className='songplayer'>
+        <iframe 
+            style={{ borderRadius: "12px" }} 
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1EIeU3RFfPV9ui?utm_source=generator" 
+            width="60%" 
+            height="200" 
+            frameBorder="0" 
+            allowFullScreen 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+        </iframe>
+        </div> */}
     </div>
     </>
   );
@@ -115,9 +127,10 @@ const styles = {
     fontWeight: 'bold',
   },
   textarea: {
-    minHeight: '300px',
+    height:"80vh",
     padding: '1rem',
     fontSize: '1rem',
+ 
     lineHeight: '1.6',
     border: '1px solid #ddd',
     borderRadius: '6px',
