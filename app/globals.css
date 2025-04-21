@@ -11,3 +11,24 @@ h1 {
 code, pre {
   font-family: var(--font-geist-mono), monospace;
 }
+.ProseMirror {
+  background-color: white;
+  width: 210mm;
+  min-height: 297mm;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20mm;
+  box-sizing: border-box;
+  font-size: 12pt;
+  line-height: 1.5;
+  outline: none;
+  border-radius: 12px;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+
+.editor-page-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: #f5f5f5;
+}
